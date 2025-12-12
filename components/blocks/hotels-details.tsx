@@ -33,7 +33,7 @@ const HotelData = {
           "Use stellar design to easily engage users and strengthen their loyalty. Create a seamless experience that keeps them coming back for more.",
         buttonText: "See Tools",
         imageSrc:
-          "/IMG_4648.HEIC",
+          "/IMG_4648.jpg",
         imageAlt: "placeholder",
       },
     },

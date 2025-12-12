@@ -3,6 +3,8 @@ import {HeroHotelPage} from "@/components/blocks/hero-hotel-page";
 import {FeatureHotelDemo} from "@/components/blocks/hotels-details";
 import Testimonials from "@/components/blocks/testimonials";
 import HotelGallery from "@/components/blocks/imageGallery";
+import { ContactPage } from "@/components/ui/contact-page";
+
 
 export default function HotelPage() {
   return (
@@ -12,6 +14,8 @@ export default function HotelPage() {
     <FeatureHotelDemo/>
     <Testimonials/>
     <HotelGallery/>
+    <ContactPage/>
+
     </>
   );
 }

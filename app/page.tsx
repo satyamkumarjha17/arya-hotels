@@ -1,8 +1,9 @@
 import About from "@/components/blocks/about";
 import { HeroSection } from "@/components/blocks/hero-section-5";
-import {AryaRampur} from "@/components/blocks/arya-rampur";
+import {AryaRamnagar} from "@/components/blocks/arya-ramnagar";
 import {UpcomingProjects} from "@/components/blocks/upcoming-projects";
 import PartnerWithUs from "@/components/blocks/partner-with-us";
+import { ContactPage } from "@/components/ui/contact-page";
 import Image from "next/image";
 
 export default function Home() {
@@ -10,9 +11,10 @@ export default function Home() {
     <>
     <HeroSection />
     <About />
-    <AryaRampur />
+    <AryaRamnagar />
     <UpcomingProjects/>
     <PartnerWithUs />
+    <ContactPage/>
     </>
   );
 }

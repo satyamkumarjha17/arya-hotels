@@ -110,14 +110,7 @@ export function HeroSection() {
 
 // Hotel locations for dropdown
 const hotelLocations = [
-    { name: 'Rampur', slug: 'rampur' },
-    { name: 'Delhi', slug: 'delhi' },
-    { name: 'Jaipur', slug: 'jaipur' },
-    { name: 'Chandigarh', slug: 'chandigarh' },
-    { name: 'Agra', slug: 'agra' },
-    { name: 'Udaipur', slug: 'udaipur' },
-    { name: 'Mumbai', slug: 'mumbai' },
-    { name: 'Goa', slug: 'goa' },
+    { name: 'Ramnagar', slug: 'ramnagar' },
 ]
 
 const menuItems = [

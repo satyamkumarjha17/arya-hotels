@@ -9,11 +9,11 @@ function Hero() {
         <div className="grid grid-cols-1 gap-8 items-center md:grid-cols-2">
           <div className="flex gap-4 flex-col">
             <div>
-              <Badge variant="outline">We&apos;re live!</Badge>
+              <Badge variant="outline">We&apos;re excited to host you</Badge>
             </div>
             <div className="flex gap-4 flex-col">
               <h1 className="text-5xl md:text-7xl max-w-lg tracking-tighter text-left font-regular">
-                Stay in the Heart of Rampur
+                Stay in the Heart of Ramnagar
               </h1>
               <p className="text-xl leading-relaxed tracking-tight text-muted-foreground max-w-md text-left">
                 Managing a small business today is already tough. Avoid further
@@ -32,9 +32,9 @@ function Hero() {
             </div>
           </div>
           <div className="grid grid-cols-2 gap-8">
-            <div className="bg-muted rounded-md aspect-square"></div>
-            <div className="bg-muted rounded-md row-span-2"></div>
-            <div className="bg-muted rounded-md aspect-square"></div>
+            <div className="bg-muted rounded-md aspect-square bg-cover bg-center" style={{backgroundImage: 'url(/IMG_4648.jpg)'}}></div>
+<div className="bg-muted rounded-md row-span-2 bg-cover bg-center" style={{backgroundImage: 'url(/IMG_4634.jpg)'}}></div>
+<div className="bg-muted rounded-md aspect-square bg-cover bg-center" style={{backgroundImage: 'url(/IMG_4642.jpg)'}}></div>
           </div>
         </div>
       </div>
